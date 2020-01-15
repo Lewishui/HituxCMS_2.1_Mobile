@@ -1,0 +1,153 @@
+#body   .tab{}
+#body   .tab-hd { 	 
+ overflow:hidden; zoom:1; background:#F5F5F5;}
+#body   .tab-hd li{ float:left; width:33.33%; color:#333; text-align:center; cursor:pointer;height:45px;line-height:45px;	
+}
+#body   .tab-hd li a{
+	font-size:18px;
+	color:#333333;
+	text-align:center;}
+#body   .tab-hd li.active{	 
+font-weight:normal;
+padding:0px;
+margin:0px;
+padding-left:0px;
+font-size:18px;
+text-align:center;
+color:#196ba7;
+}
+#body   .tab-hd li.active a{
+	color:#196ba7;
+	padding:0px;
+	margin:0px;
+	padding-left:0;
+	line-height:45px;
+	text-align:center;
+}
+#body   .tab-bd li{display:none; padding:0px; border-top:0 none; }	
+
+#body  .DivList{
+	padding:0px;}
+
+
+#body  .DivList .DivLi{
+	padding:0px 10px 0px 0px;
+	}
+#body  .DivList .DivLi a{
+	line-height:25px;
+	padding:0px;
+	height:25px;
+	overflow:hidden;}	
+#body  .DivList .DivLi span{
+	color:#296cd4;
+	padding-right:20px;
+	font-size:11px;
+	width:80px;
+	}
+#body .HituxShow  .DivList{
+	padding:10px;
+	}
+#body .HituxShow  .DivList .DivLeft{
+	width:190px;
+	float:left;
+	padding:10px 10px 0px 10px;
+	}
+#body .HituxShow  .DivList .DivLeft p{
+	line-height:20px;
+	background:#F00;
+	color:#FFF;
+	text-align:center;
+	}
+#body .HituxShow  .DivList .DivLeft a{
+	color:#FFF;
+	font-weight:bold;}		
+#body .HituxShow  .DivList .DivRight{
+	width:250px;
+	float:right;
+	}
+#body .HituxShow .DivList .DivLi{
+	width:128px;
+	height:40px;
+	overflow:hidden;
+	float:left;
+	padding-left:10px;}
+#body .HituxShow .DivList .DivLi a{
+	width:128px;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	background: url("/images/HituxMobileImages/m_Pro_bg1.gif") repeat-x 0px top;
+	display:block;
+	overflow:hidden;}
+#body .HituxShow .DivList .DivLi a:hover{
+	background: url("/images/HituxMobileImages/m_Pro_bg2.gif") repeat-x 0px top;
+	color:#FFF;
+	text-decoration:none;}
+
+	
+#body .topic{
+	height:45px;
+	background:#F5F5F5;
+	}
+#body   .topic .TopicTitle{
+	padding-left:0px;
+	font-size:18px;
+	color:#196ba7;
+	font-weight:normal;
+	line-height:45px;
+	text-align:center;}
+#body   .topic .TopicTitle p{
+	font-size:9px;
+	text-transform:uppercase;
+	font-weight:normal;
+	color:#999;
+	line-height:150%;}
+
+#body  .TopicTitle a{
+	color:#196ba7;
+	text-decoration:none;}	
+#body   .topic .TopicMore{
+	float:right;
+	font-size:12px;
+	padding-right:10px;
+	padding-top:9px;}
+#body   .topic .TopicMore img{
+	}				
+	
+#body  .MBlockTable td{
+	line-height:40px;
+	height:40px;
+	border-bottom:1px dotted #DEDEDE;
+	padding-left:10px;
+	overflow:Hidden;
+}	
+#body  .MBlockTable span{
+	color:#9a9a9a;
+	font-size:14px;
+	display:block;
+	line-height:40px;
+	height:40px;
+	overflow:Hidden;}
+		
+#body  .MBlockTable	p{
+	line-height:40px;
+	height:40px;
+	overflow:Hidden;}
+
+
+#body .HituxShow .txt{
+	padding:10px 20px 10px 20px;
+	color:#6c6c6c;
+	}
+#body .HituxShow .txt p{
+	line-height:36px;}
+
+
+#body .HituxShow {
+	BORDER: #DEDEDE 1px solid;
+	max-width:640px;
+	margin:auto;
+}
+#body .HituxShow .albumblock{
+	}
+

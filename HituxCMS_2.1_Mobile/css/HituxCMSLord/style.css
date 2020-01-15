@@ -1,0 +1,315 @@
+#wrapper #head #FocusBG{
+	width:100%;
+	height:500px;
+}
+.fullSlide {
+	width:100%;
+	position:relative;
+	height:500px;
+	background:#000;
+}
+.fullSlide .bd {
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+	overflow:hidden;
+}
+.fullSlide .bd ul {
+	width:100% !important;
+}
+.fullSlide .bd li {
+	width:100% !important;
+	height:500px;
+	overflow:hidden;
+	text-align:center;
+}
+.fullSlide .bd li a {
+	display:block;
+	height:500px;
+}
+.fullSlide .hd {
+	width:100%;
+	position:absolute;
+	z-index:1;
+	bottom:0;
+	left:0;
+	height:30px;
+	line-height:30px;
+}
+.fullSlide .hd ul {
+	text-align:center;
+}
+.fullSlide .hd ul li {
+	cursor:pointer;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	width:14px;
+	height:14px;
+	margin:10px 5px;
+	overflow:hidden;
+	background:#FFF;
+	line-height:999px;
+	border-radius:7px;
+}
+.fullSlide .hd ul .on {
+	background:#196ba7;
+}
+.fullSlide .prev,.fullSlide .next {
+	display:block;
+	position:absolute;
+	z-index:1;
+	top:50%;
+	margin-top:-30px;
+	left:0%;
+	z-index:1;
+	width:40px;
+	height:60px;
+	background:url(/images/slider-arrow.png) -126px -137px #000 no-repeat;
+	cursor:pointer;
+	filter:alpha(opacity=50);
+	opacity:0.5;
+	display:none;
+}
+.fullSlide .next {
+	left:auto;
+	right:0%;
+	background-position:-6px -137px;
+}
+
+/* main block*/
+#body .MainBlock{
+	}
+
+
+#body   .tab{ }
+#body   .tab-hd { 	background:url("/images/HituxCMSLord/box_titlebg.png") no-repeat -160px -10px;
+ overflow:hidden; zoom:1;}
+#body   .tab-hd li{ float:left; width:160px; color:#fff; text-align:center; cursor:pointer;height:45px;line-height:35px;font-size:16px;}
+#body   .tab-hd li.active{	background:url("/images/HituxCMSLord/box_titlebg.png") no-repeat left -10px;
+font-weight:normal;
+padding:0px;
+margin:0px;
+padding-left:0;
+}
+#body   .tab-hd li.active a{
+	color:#FFFFFF;
+	padding:0px;
+	margin:0px;
+	padding-left:0;
+	line-height:35px;
+	background:none;}
+#body   .tab-bd li{display:none; padding:10px; border-top:0 none; }	
+
+#body .left .DivList{
+	font-size:12px;
+	padding:0px;}
+ 
+#body .left .DivList .DivLi{
+	padding:0px 10px 0px 0px;
+	}
+#body .left .DivList .DivLi a{
+	line-height:26px;
+	padding:0px;
+	height:26px;
+	overflow:hidden;}	
+#body .left .DivList .DivLi span{
+	color:#1483b1;
+	padding-right:20px;
+	font-size:11px;
+	width:80px;
+	}
+
+
+#body .left .DivList{
+	font-size:12px;
+	padding:0px;}
+#body .left .DivList .DivLi{
+	padding:0px 10px 0px 0px;
+	}
+#body .left .DivList .DivLi .DivLeft{
+	float:left;
+	padding:10px 10px;
+	width:100px;
+	height:80px;}
+#body .left .DivList .DivLi .DivLeft img{
+	width:100px;
+	height:70px;
+	border:1px solid #F5F5F5;
+	border-radius:5px;}	
+#body .left .DivList .DivLi .DivRight{
+	float:right;
+	padding:10px 10px;
+	width:360px;
+	height:80px;}
+#body .left .DivList .DivLi .DivRight p{
+	line-height:180%;}
+#body .left .DivList .DivLi a{
+	line-height:25px;
+	padding:0px;
+	height:25px;
+	overflow:hidden;}	
+#body .left .DivList .DivLi .Time{
+	color:#0e7aa1;
+	font-size:11px;
+	}
+#body .left .DivList .DivLi .Title{
+	font-size:16px;}
+#body .left .DivList .DivLi .Des{
+	color:#666;
+	padding:5px 0px;}	
+
+
+
+#body .right2  .DivList{
+	padding:10px 0px 10px 10px;
+	}
+#body .right2  .DivList .DivLeft{
+	width:190px;
+	float:left;
+	padding:10px 10px 0px 10px;
+	}
+#body .right2  .DivList .DivLeft p{
+	line-height:20px;
+	background:#F00;
+	color:#FFF;
+	text-align:center;
+	}
+#body .right2  .DivList .DivLeft a{
+	color:#FFF;
+	font-weight:bold;}		
+#body .right2  .DivList .DivRight{
+	width:250px;
+	float:right;
+	}
+#body .right2 .DivList .DivLi{
+	width:128px;
+	height:50px;
+	overflow:hidden;
+	float:left;
+	padding-left:10px;}
+#body .right2 .DivList .DivLi a{
+	width:128px;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	background: url("/images/HituxMobileImages/m_Pro_bg1.gif") repeat-x 0px top;
+	display:block;
+	overflow:hidden;}
+#body .right2 .DivList .DivLi a:hover{
+	background: url("/images/HituxMobileImages/m_Pro_bg2.gif") repeat-x 0px top;
+	color:#FFF;
+	text-decoration:none;}
+
+	
+#body .topic{
+	height:45px;
+	background:url("/images/HituxCMSLord/box_titlebg.png") no-repeat left -10px;
+}
+#body   .topic .TopicTitle{
+	float:left;
+	font-weight:normal;
+	padding-left:0px;
+	font-size:16px;
+	color:#FFFFFF;
+	line-height:35px;
+	width:160px;
+	text-align:center;}
+#body   .topic .TopicTitle a{
+	color:#FFF;}
+#body   .topic .TopicMore{
+	float:right;
+	padding-right:10px;
+	line-height:35px;}
+#body   .topic .TopicMore a{
+	color:#666;
+	}				
+	
+#body    #MBlockTable td{
+	line-height:26px;
+	padding-left:10px;
+}
+#body .MainBlock .left  #MBlockTable span{
+	color:#196ba7;
+	padding-left:10px;
+	font-size:11px;}
+#body .MainBlock .right{
+	width:300px;
+	float:right;
+	height:360px;
+	border-left:1px solid #DEDEDE;
+	border-top:1px solid #DEDEDE;
+	border-right:1px solid #DEDEDE;
+	border-bottom:1px solid #DEDEDE;
+	overflow:hidden;
+	}
+#body .MainBlock .right2{
+	width:301px;
+	float:left;
+	height:360px;
+	border-left:1px solid #DEDEDE;
+	border-top:1px solid #DEDEDE;
+	border-right:1px solid #DEDEDE;
+	border-bottom:1px solid #DEDEDE;
+	overflow:hidden;
+	}
+#body .MainBlock .left{
+	float:left;
+	width:550px;
+	border-top:1px solid #DEDEDE;
+	border-right:1px solid #DEDEDE;
+	border-bottom:1px solid #DEDEDE;
+	border-left:1px solid #DEDEDE;
+	height:360px;
+	overflow:hidden;
+	}
+	
+#body .MainBlock .right .img{
+	padding:14px;
+	}
+#body .MainBlock .right .img img{
+	border:1px solid #F5F5F5;
+	border-radius:5px;}
+
+#body .MainBlock .right .txt{
+	padding:0px 14px 14px 14px;
+	color:#666;}
+
+
+
+
+#body .ProductShow {
+	border: #DEDEDE 1px solid;
+	WIDTH:1198px; 
+	margin:auto;
+}
+
+#body .ProductShow .albumblock{
+	padding:20px 15px 20px 21px;
+	}
+
+
+
+
+ #LinksBG {
+	width:100%;
+	background:#F5F5F5;
+	border-top:1px solid #DEDEDE;}
+
+ #Links {
+	padding:20px 0px;
+	line-height:25px;
+	font-size:14px;
+	width:1200px;
+	margin:auto;
+	color:#333;}
+ #Links span{
+	font-weight:bold;}
+
+ #Links a{
+	 color:#333;
+	padding:0px 10px;}	
+	
+	
+	
+	

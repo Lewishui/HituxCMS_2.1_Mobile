@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no" name="format-detection" />
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>$web_title$</title>
+<meta name="keywords" content="$web_keywords$" />
+<meta name="description" content="$web_description$" />
+<link href="/css/$web_theme$/Mstyle.css" rel="stylesheet" type="text/css" />
+<link href="/css/$web_theme$/Mcommon.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/mfocusslide.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/mfunctions.js"></script>
+<script type='text/javascript'> window.onerror=function(){return true;} </script> 
+</head>
+
+<body>
+<!--head start-->
+<div id="head">
+
+<!--top start -->
+<div class="top">
+
+<div class="TopLogo">
+<div class="logo"><a href="/"><img src="/images/up_images/$web_image$" alt="$web_name$"></a></div>
+
+<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+</div>
+<!--top end-->
+<div class="clearfix"></div>
+
+</div>
+<!--head end-->
+<div id="wrapper">
+<!--nav start-->
+<div id="NavLink">
+<!--Head Menu Start-->
+$web_TopMenu$
+<!--Head Menu End-->
+<div class="clearfix"></div>
+</div>
+<!--nav end-->
+<div class='clearfix'></div>
+<!--focus start-->
+<input style="display:none;" id="lbtime" type="text" value="2000"/>
+<script>
+	var lbtime=$("#lbtime").val();
+  	setInterval('trips.silide()',lbtime);
+</script>
+<div class="banner">
+  <div id="wrappers" style="overflow: hidden;">
+    <div id="scroller">
+      <ul id="thelist">
+			$web_TopIMGAD$
+      </ul>
+    </div>
+  </div>
+</div>
+  <div id="nav">
+    <ul id="indicator">
+    $web_TopIMGADNo$   </ul>
+  </div>
+
+<script type="text/javascript">
+var myScroll;
+function loaded() {
+myScroll = new iScroll('wrappers', {
+snap: true,
+momentum: false,
+hScrollbar: false,
+onScrollEnd: function () {
+document.querySelector('#indicator > li.active').className = '';
+document.querySelector('#indicator > li:nth-child(' + (this.currPageX+1) + ')').className = 'active';
+}
+ });
+}
+document.addEventListener('DOMContentLoaded', loaded, false);
+</script>
+<script>
+var count = document.getElementById("thelist").getElementsByTagName("img").length;
+for(i=0;i<count;i++){
+ document.getElementById("thelist").getElementsByTagName("img").item(i).style.cssText = " width:"+document.body.clientWidth+"px";
+}
+document.getElementById("scroller").style.cssText = " width:"+document.body.clientWidth*count+"px";
+ setInterval(function(){
+myScroll.scrollToPage('next', 0,400,count);
+},lbtime );
+
+window.onresize = function(){ 
+for(i=0;i<count;i++){
+document.getElementById("thelist").getElementsByTagName("img").item(i).style.cssText = " width:"+document.body.clientWidth+"px";
+
+}
+ document.getElementById("scroller").style.cssText = " width:"+document.body.clientWidth*count+"px";
+} 
+</script>
+<!--focus end-->
+<div class="clearfix"></div>
+<!--body start-->
+<div id="body">
+<div class="HeightTab clearfix"></div>
+<!--HituxShow start-->
+<DIV class="HituxShow">
+<div class="topic">
+<div class="TopicTitle"><a  href='$WebAboutFolder$'>$WebAboutName$</a></div>
+ </div>
+<div class=" clearfix"></div>
+<div class='txt'>
+<p>$WebAboutContent$...<a href='$WebAboutFolder$' target='_blank'>详细>></a></p>
+<div class='clearfix'></div>
+</div>
+
+<div class="clearfix"></div>
+</DIV>
+<!--HituxShow end-->
+<div class="HeightTab clearfix"></div>
+
+<!--HituxShow start-->
+<DIV class="HituxShow">
+<div class="tab">
+<ul class="tab-hd">$WebNewNewsTitles$</ul>
+<ul class="tab-bd">
+$WebNewNewsList$
+</ul>
+</div>
+<div class="clearfix"></div>
+</DIV>
+<!--HituxShow end-->
+<div class="HeightTab clearfix"></div>
+
+<!--HituxShow start-->
+<DIV class="HituxShow">
+<div class="tab">
+<ul class="tab-hd"><li>最新产品</li><li>推荐产品</li><li>产品分类</li> </ul>
+<ul class="tab-bd">
+<li><div class='DivList'>
+$Block03_LeftItem$
+<div class="HeightTab clearfix"></div>
+<div class='MoreLink'><a href='$WebProductFolder$'>查看更多产品>></a></div>
+<div class='clearfix'></div></div></li>
+<li><div class='DivList'>
+$Block03_LeftItem2$
+<div class="HeightTab clearfix"></div>
+<div class='MoreLink'><a href='$WebProductFolder$'>查看更多产品>></a></div>
+<div class='clearfix'></div></div></li>
+<li><div class='DivList'>
+$Block03_LeftItem_Title$
+<div class="HeightTab clearfix"></div>
+<div class='MoreLink'><a href='$WebProductFolder$'>查看更多产品>></a></div>
+<div class='clearfix'></div></div></li>
+
+</ul>
+</div>
+<div class="clearfix"></div>
+</DIV>
+<!--HituxShow end-->
+<div class="HeightTab clearfix"></div>
+</div>
+<!--body end-->
+<div class="clearfix"></div>
+<!--footer start-->
+<div id="footer">
+<div class="SearchTop">
+<div class="SearchBar">
+<form method="get" action="$search_FolderName$/index.asp">
+				<input type="text" name="q" id="search-text" size="15" onBlur="if(this.value=='') this.value='请输入关键词';" 
+onfocus="if(this.value=='请输入关键词') this.value='';" value="请输入关键词" /><input type="submit" id="search-submit" value=" " />
+			</form>
+</div>
+</div>
+
+<div class="inner">
+$web_BottomHTML$
+<div class='clearfix'></div>
+</div>
+</div>
+<!--footer end -->
+
+<!--HituxBar start-->
+<div class="HituxBar_com_position">
+<div class="HituxBar_com_chat wp">
+<ul>
+$web_BottomMenu$
+</ul>
+</div>
+<div class='clearfix'></div>
+</div>
+</div>
+<!--HituxBar end-->
+
+</div>
+
+
+</body>
+</html>
+<!--
+Powered By HituxCMS ASP V2.1 Mobile 
+-->

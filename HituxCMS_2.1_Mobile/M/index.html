@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" name="viewport" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no" name="format-detection" />
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>云合未来计算机技术有限公司 -首页</title>
+<meta name="keywords" content="云合未来计算机技术有限公司,yhocn.cn,云合未来,云合未来手机网站" />
+<meta name="description" content=" 云合未来计算机技术有限公司 " />
+<link href="/css/HituxCMSLord/Mstyle.css" rel="stylesheet" type="text/css" />
+<link href="/css/HituxCMSLord/Mcommon.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/mfocusslide.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/mfunctions.js"></script>
+<script type='text/javascript'> window.onerror=function(){return true;} </script> 
+</head>
+
+<body>
+<!--head start-->
+<div id="head">
+
+<!--top start -->
+<div class="top">
+
+<div class="TopLogo">
+<div class="logo"><a href="/"><img src="/images/up_images/logo.png" alt="云合未来计算机技术有限公司"></a></div>
+
+<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+</div>
+<!--top end-->
+<div class="clearfix"></div>
+
+</div>
+<!--head end-->
+<div id="wrapper">
+<!--nav start-->
+<div id="NavLink">
+<!--Head Menu Start-->
+<ul id='sddm'><li class='CurrentLi'><a href='/M/'>网站首页</a></li> <li><a href='/M/About/'>关于公司</a></li> <li><a href='/M/Product/'>公司产品</a></li> <li><a href='/M/Contact/'>联系我们</a></li> </ul>
+<!--Head Menu End-->
+<div class="clearfix"></div>
+</div>
+<!--nav end-->
+<div class='clearfix'></div>
+<!--focus start-->
+<input style="display:none;" id="lbtime" type="text" value="2000"/>
+<script>
+	var lbtime=$("#lbtime").val();
+  	setInterval('trips.silide()',lbtime);
+</script>
+<div class="banner">
+  <div id="wrappers" style="overflow: hidden;">
+    <div id="scroller">
+      <ul id="thelist">
+			<li><a href='http://yhocn.cn/' target='_blank'><img src='/images/up_images/1x.jpg' alt='test5'></a></li><li><a href='http://yhocn.cn/' target='_blank'><img src='/images/up_images/4x.jpg' alt='test3'></a></li><li><a href='http://yhocn.cn/' target='_blank'><img src='/images/up_images/2x.jpg' alt='test2'></a></li><li><a href='http://www.yhocn.cn/' target='_blank'><img src='/images/up_images/3x.jpg' alt='test1'></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+  <div id="nav">
+    <ul id="indicator">
+    <li class='active'>1</li><li class='active'>2</li><li class='active'>3</li><li class='active'>4</li>   </ul>
+  </div>
+
+<script type="text/javascript">
+var myScroll;
+function loaded() {
+myScroll = new iScroll('wrappers', {
+snap: true,
+momentum: false,
+hScrollbar: false,
+onScrollEnd: function () {
+document.querySelector('#indicator > li.active').className = '';
+document.querySelector('#indicator > li:nth-child(' + (this.currPageX+1) + ')').className = 'active';
+}
+ });
+}
+document.addEventListener('DOMContentLoaded', loaded, false);
+</script>
+<script>
+var count = document.getElementById("thelist").getElementsByTagName("img").length;
+for(i=0;i<count;i++){
+ document.getElementById("thelist").getElementsByTagName("img").item(i).style.cssText = " width:"+document.body.clientWidth+"px";
+}
+document.getElementById("scroller").style.cssText = " width:"+document.body.clientWidth*count+"px";
+ setInterval(function(){
+myScroll.scrollToPage('next', 0,400,count);
+},lbtime );
+
+window.onresize = function(){ 
+for(i=0;i<count;i++){
+document.getElementById("thelist").getElementsByTagName("img").item(i).style.cssText = " width:"+document.body.clientWidth+"px";
+
+}
+ document.getElementById("scroller").style.cssText = " width:"+document.body.clientWidth*count+"px";
+} 
+</script>
+<!--focus end-->
+<div class="clearfix"></div>
+<!--body start-->
+<div id="body">
+<div class="HeightTab clearfix"></div>
+<!--HituxShow start-->
+<DIV class="HituxShow">
+<div class="topic">
+<div class="TopicTitle"><a  href='/M/About'>关于公司</a></div>
+ </div>
+<div class=" clearfix"></div>
+<div class='txt'>
+       
+<p>　　云合未来计算机技术有限公司是一家面向全球客户提供领先的应用软件产品、信息服务及行业解决方案的IT企业。公司把握前沿技术，在 财务自动化工具，桌面仿人工RPA，移动互联、电子商务、云计算、大数据、物联网等领域自主研发了多项技术解决方案，基于IT业务的生命周期，建立了ONE STOP一站式服务、...<a href='/M/About' target='_blank'>详细>></a></p>
+<div class='clearfix'></div>
+</div>
+
+<div class="clearfix"></div>
+</DIV>
+<!--HituxShow end-->
+<div class="HeightTab clearfix"></div>
+
+<!--HituxShow start-->
+<DIV class="HituxShow">
+<div class="tab">
+<ul class="tab-hd"><li>公司新闻</li> <li>行业新闻</li> <li>最新活动</li> </ul>
+<ul class="tab-bd">
+<li><div class='DivList'><table class='MBlockTable' width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td width='80%'><p>· <a href='/M/html/5147925030.html' target='_blank' title='雅虎或出售亚洲资产推动阿里巴巴集团IPO'>雅虎或出售亚洲资产推动阿里巴巴集团</a></p></td><td width='20%'><span>2018/8/23</span></td></tr><tr><td width='80%'><p>· <a href='/M/html/6035144817.html' target='_blank' title='电商价格战煎熬上游供应商：订单爆棚员工抓狂'>电商价格战煎熬上游供应商：订单爆棚</a></p></td><td width='20%'><span>2018/8/23</span></td></tr><tr><td width='80%'><p>· <a href='/M/html/874506477.html' target='_blank' title='上市即脱销 华为Ascend P1一机难求'>上市即脱销 华为Ascend P1</a></p></td><td width='20%'><span>2018/8/23</span></td></tr><tr><td width='80%'><p>· <a href='/M/html/0795464438.html' target='_blank' title='微软加入新一代DRAM团体HMCC的理由 '>微软加入新一代DRAM团体HMCC</a></p></td><td width='20%'><span>2018/8/23</span></td></tr><tr><td width='80%'><p>· <a href='/M/html/540823379.html' target='_blank' title='松下财报巨亏 电视业务成拖累 '>松下财报巨亏 电视业务成拖累 </a></p></td><td width='20%'><span>2018/8/21</span></td></tr><tr><td width='80%'><p>· <a href='/M/html/9654373635.html' target='_blank' title='日本厂商打造0.25毫米超薄防水手机套'>日本厂商打造0.25毫米超薄防水手</a></p></td><td width='20%'><span>2018/8/21</span></td></tr><tr><td width='80%'><p>· <a href='/M/html/640517362.html' target='_blank' title='存款准备金率即将下调 有利提振银行地产股'>存款准备金率即将下调 有利提振银行</a></p></td><td width='20%'><span>2018/8/21</span></td></tr><tr><td width='80%'><p>· <a href='/M/html/8416523541.html' target='_blank' title='为民服务新举措 中移动推Easy WLAN手机客户端'>为民服务新举措 中移动推Easy </a></p></td><td width='20%'><span>2018/8/21</span></td></tr></table><div class='clearfix'></div></div></li><li><div class='DivList'><table class='MBlockTable' width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td width='80%'><p>· <a href='/M/html/3508673514.html' target='_blank' title='法院成功追诉生产假冒诺基亚手机幕后老板'>法院成功追诉生产假冒诺基亚手机幕后</a></p></td><td width='20%'><span>2018/8/21</span></td></tr></table><div class='clearfix'></div></div></li><li><div class='DivList'><table class='MBlockTable' width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td width='80%'><p>· <a href='/M/html/4075985232.html' target='_blank' title='最大的赢家莫过于芯片厂商和电信运营商'>最大的赢家莫过于芯片厂商和电信运营</a></p></td><td width='20%'><span>2014/6/2</span></td></tr></table><div class='clearfix'></div></div></li>
+</ul>
+</div>
+<div class="clearfix"></div>
+</DIV>
+<!--HituxShow end-->
+<div class="HeightTab clearfix"></div>
+
+<!--HituxShow start-->
+<DIV class="HituxShow">
+<div class="tab">
+<ul class="tab-hd"><li>最新产品</li><li>推荐产品</li><li>产品分类</li> </ul>
+<ul class="tab-bd">
+<li><div class='DivList'>
+<div class='albumblock'><div class='inner'><a href='/M/Product/348012305.html' target='_blank' ><img src='/images/up_images/20129519303.jpg' alt='全方位个性化定制办公系统'/></a><div class='albumtitle'><a href='/M/Product/348012305.html' target='_blank' title='全方位个性化定制办公系统'>全方位个性化定制办公系统</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/4802512750.html' target='_blank' ><img src='/images/up_images/201295192748.jpg' alt='新时代人工智能系统'/></a><div class='albumtitle'><a href='/M/Product/4802512750.html' target='_blank' title='新时代人工智能系统'>新时代人工智能系统</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/0897431245.html' target='_blank' ><img src='/images/up_images/201295191242.jpg' alt='RPA机器人流程自动化工具降低人工劳动专注各行业业务流程自动化及办公自动化'/></a><div class='albumtitle'><a href='/M/Product/0897431245.html' target='_blank' title='RPA机器人流程自动化工具降低人工劳动专注各行业业务流程自动化及办公自动化'>RPA机器人流程自动化工具</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/5760891023.html' target='_blank' ><img src='/images/up_images/201295191021.jpg' alt='定制开发微信小程序几百元办大事'/></a><div class='albumtitle'><a href='/M/Product/5760891023.html' target='_blank' title='定制开发微信小程序几百元办大事'>定制开发微信小程序几百元办大事</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/96738071.html' target='_blank' ><img src='/images/up_images/20129519659.jpg' alt='PC+手机 进销存企业办公系统随时随地有账可查有量可看'/></a><div class='albumtitle'><a href='/M/Product/96738071.html' target='_blank' title='PC+手机 进销存企业办公系统随时随地有账可查有量可看'>PC+手机 进销存企业办公系统随时随地有账可查有量可看</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/1857041017.html' target='_blank' ><img src='/images/up_images/201252315108.jpg' alt='outlook邮箱自动化批量发邮件email邮箱快速发信支持多个发送邮箱'/></a><div class='albumtitle'><a href='/M/Product/1857041017.html' target='_blank' title='outlook邮箱自动化批量发邮件email邮箱快速发信支持多个发送邮箱'>outlook邮箱自动化批量发邮件email邮箱快速发信支持多个发送邮箱</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/394728928.html' target='_blank' ><img src='/images/up_images/201252315915.jpg' alt='Excel表工资管理系统 实惠灵活好用99元'/></a><div class='albumtitle'><a href='/M/Product/394728928.html' target='_blank' title='Excel表工资管理系统 实惠灵活好用99元'>Excel表工资管理系统 实惠灵活好用99元</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/319207841.html' target='_blank' ><img src='/images/up_images/201252315829.jpg' alt='VBA代做Excel表格代打宏编程定制作图设计制作表数据批量处理00元'/></a><div class='albumtitle'><a href='/M/Product/319207841.html' target='_blank' title='VBA代做Excel表格代打宏编程定制作图设计制作表数据批量处理00元'>VBA代做Excel表格代打宏编程定制作图设计制作表数据批量处理</a></div></div></div>
+<div class="HeightTab clearfix"></div>
+<div class='MoreLink'><a href='/M/Product'>查看更多产品>></a></div>
+<div class='clearfix'></div></div></li>
+<li><div class='DivList'>
+<div class='albumblock'><div class='inner'><a href='/M/Product/0897431245.html' target='_blank' ><img src='/images/up_images/201295191242.jpg' alt='RPA机器人流程自动化工具降低人工劳动专注各行业业务流程自动化及办公自动化'/></a><div class='albumtitle'><a href='/M/Product/0897431245.html' target='_blank' title='RPA机器人流程自动化工具降低人工劳动专注各行业业务流程自动化及办公自动化'>RPA机器人流程自动化工具</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/5760891023.html' target='_blank' ><img src='/images/up_images/201295191021.jpg' alt='定制开发微信小程序几百元办大事'/></a><div class='albumtitle'><a href='/M/Product/5760891023.html' target='_blank' title='定制开发微信小程序几百元办大事'>定制开发微信小程序几百元办大事</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/96738071.html' target='_blank' ><img src='/images/up_images/20129519659.jpg' alt='PC+手机 进销存企业办公系统随时随地有账可查有量可看'/></a><div class='albumtitle'><a href='/M/Product/96738071.html' target='_blank' title='PC+手机 进销存企业办公系统随时随地有账可查有量可看'>PC+手机 进销存企业办公系统随时随地有账可查有量可看</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/825674739.html' target='_blank' ><img src='/images/up_images/201252315730.jpg' alt='人事系统方便快捷管理企业人员'/></a><div class='albumtitle'><a href='/M/Product/825674739.html' target='_blank' title='人事系统方便快捷管理企业人员'>人事系统方便快捷管理企业人员</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/034159654.html' target='_blank' ><img src='/images/up_images/201252315642.jpg' alt='云合未来服务一览表'/></a><div class='albumtitle'><a href='/M/Product/034159654.html' target='_blank' title='云合未来服务一览表'>云合未来服务一览表</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/605731614.html' target='_blank' ><img src='/images/up_images/201252315613.jpg' alt='VBA编程函数公式'/></a><div class='albumtitle'><a href='/M/Product/605731614.html' target='_blank' title='VBA编程函数公式'>VBA编程函数公式</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/428037235.html' target='_blank' ><img src='/images/up_images/201252315225.jpg' alt='生产管理系统'/></a><div class='albumtitle'><a href='/M/Product/428037235.html' target='_blank' title='生产管理系统'>生产管理系统</a></div></div></div><div class='albumblock'><div class='inner'><a href='/M/Product/6035142153.html' target='_blank' ><img src='/images/up_images/20111210172124.jpg' alt='计件工资管理系统'/></a><div class='albumtitle'><a href='/M/Product/6035142153.html' target='_blank' title='计件工资管理系统'>计件工资管理系统</a></div></div></div>
+<div class="HeightTab clearfix"></div>
+<div class='MoreLink'><a href='/M/Product'>查看更多产品>></a></div>
+<div class='clearfix'></div></div></li>
+<li><div class='DivList'>
+<div class='DivLi'><A href='Product/Mobile'>IT人力外包</A></div> <div class='DivLi'><A href='Product/DigitalPlayer'>定制办公系统软件</A></div> <div class='DivLi'><A href='Product/Pad'>人工智能系统</A></div> <div class='DivLi'><A href='Product/GPS'>RPA流程自动化工具仪</A></div> <div class='DivLi'><A href='Product/NoteBook'>进销存人事财务系统</A></div> <div class='DivLi'><A href='Product/dianzicidian'>门户网站 商城定制建设</A></div> <div class='DivLi'><A href='Product/dv'>生产管理系统</A></div> <div class='DivLi'><A href='Product/EBook'>VBA编程函数公式</A></div> <div class='DivLi'><A href='Product/Smart'>人事工资系统</A></div> <div class='DivLi'><A href='Product/Memory'>订单管理系统</A></div> <div class='DivLi'><A href='Product/DigitalCamera'>定制微信小程序</A></div> <div class='DivLi'><A href='Product/UltraBook'>其他开发</A></div> 
+<div class="HeightTab clearfix"></div>
+<div class='MoreLink'><a href='/M/Product'>查看更多产品>></a></div>
+<div class='clearfix'></div></div></li>
+
+</ul>
+</div>
+<div class="clearfix"></div>
+</DIV>
+<!--HituxShow end-->
+<div class="HeightTab clearfix"></div>
+</div>
+<!--body end-->
+<div class="clearfix"></div>
+<!--footer start-->
+<div id="footer">
+<div class="SearchTop">
+<div class="SearchBar">
+<form method="get" action="/M/Search/index.asp">
+				<input type="text" name="q" id="search-text" size="15" onBlur="if(this.value=='') this.value='请输入关键词';" 
+onfocus="if(this.value=='请输入关键词') this.value='';" value="请输入关键词" /><input type="submit" id="search-submit" value=" " />
+			</form>
+</div>
+</div>
+
+<div class="inner">
+<p><a href="/m/">网站首页</a> | <a href="/m/About">关于我们</a> | <a href="/m/Recruit">人才招聘</a>  | <a href="/m/Sitemap">网站地图</a></p>
+<p>Copyright 2017-2025 云合未来计算机技术有限公司 版权所有 All Rights Reserved </p>
+<p>Built By <a href="http://www.yhocn.cn/" target="_blank">云合未来计算机技术有限公司</a> <a href="http://www.yhocn.cn/" target="_blank">云合未来计算机技术有限公司</a> 技术支持 </p>
+
+<div class='clearfix'></div>
+</div>
+</div>
+<!--footer end -->
+
+<!--HituxBar start-->
+<div class="HituxBar_com_position">
+<div class="HituxBar_com_chat wp">
+<ul>
+<li class='LiIcon1' style='background:url(/images/up_images/m_hitux_icon6.png) no-repeat center 5px;'><a href='/M/'>首页</a></li> <li class='LiIcon2' style='background:url(/images/up_images/m_hitux_icon1.png) no-repeat center 5px;'><a href='tel:400800888'>电话</a></li> <li class='LiIcon3' style='background:url(/images/up_images/m_hitux_icon2.png) no-repeat center 5px;'><a href='mailto:admin@hitux.com'>邮件</a></li> <li class='LiIcon4' style='background:url(/images/up_images/m_hitux_icon5.png) no-repeat center 5px;'><a href='/M/FeedBack/'>留言</a></li> 
+</ul>
+</div>
+<div class='clearfix'></div>
+</div>
+</div>
+<!--HituxBar end-->
+
+</div>
+
+
+</body>
+</html>
+<!--
+Powered By HituxCMS ASP V2.1 Mobile 
+-->
+
